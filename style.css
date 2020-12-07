@@ -1,0 +1,66 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.contener {
+  position: relative;
+  width: 80px;
+  height: 680px;
+  overflow: hidden;
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  background: url("./i.jpg");
+  animation: road 5s infinite linear;
+}
+
+@keyframes road {
+  from {
+    background-position: 0 -100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+
+canvas {
+  /* background: url("./i.jpg"); */
+  position: absolute;
+  /* animation: road 2s infinite linear; */
+}
+
+/* #canvas {
+  position: fixed;
+} */
+
+/* .map {
+  position: relative;
+  width: 150px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./i.jpg");
+  animation: road 5s infinite linear;
+}
+
+@keyframes road {
+  from {
+    top: 0;
+    bottom: 0;
+  }
+  to {
+    top: 150px;
+    bottom: 150px;
+  }
+}
+
+.car {
+  background: url("./cars.png") no-repeat;
+  width: 90px;
+  height: 90px;
+} */
+
+.boom {
+  background-image: url("./boom.png");
+}
